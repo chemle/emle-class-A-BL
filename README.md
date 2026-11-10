@@ -1,7 +1,6 @@
 # EMLE Enzymes Paper
 
-Supporting data for [**"Chemical Accuracy for Carbapenem Breakdown by Class A beta-Lactamases Using a Transferable Embedded Machine-Learned Potential"
-**](https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15008538/v1).
+Supporting data for [**"Chemical Accuracy for Carbapenem Breakdown by Class A beta-Lactamases Using a Transferable Embedded Machine-Learned Potential"**](https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15008538/v1).
 
 ---
 
