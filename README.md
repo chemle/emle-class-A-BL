@@ -17,7 +17,7 @@ ML models trained. Includes:
 Each enzyme directory contains simulation files for each system. Includes:
 
 - `parm7`: AMBER topology file  
-- `rst`: relaxed structure  
+- `rst`: relaxed structure of the initial Umbrella Sampling window
 - `in`: example `sander` input file for Umbrella Sampling  
 - `restr`: example restraint file with Umbrella Sampling bias
 
