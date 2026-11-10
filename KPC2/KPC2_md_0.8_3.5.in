@@ -1,0 +1,26 @@
+20 ps ML/MM MD production
+&cntrl
+ imin=0, irest=1, ntx=5,
+ nstlim=20000, dt=0.001,
+ ntpr=100, ntwx=500, ioutfm=1,
+ ntc=2, ntf=2,
+ ntb=2, cut=10.0,
+ ntp=1, pres0=1.0, taup=5.0,
+ ntt=3, tempi=300.0, temp0=300.0, gamma_ln=5, ig=-1,
+ ifqnt=1, nmropt=1,
+/
+&qmmm
+ qmmask='@3933-3935,2075-2080,589-616,621-624',
+ qmcharge=-2,
+ qm_theory='EXTERN',
+ qmcut=16,
+ qmshake=0,
+ qm_ewald=0
+/
+&orc
+ method='XTB2',
+/
+&wt type='DUMPFREQ', istep1=1 /
+&wt type='END' /
+DISANG=KPC2_rc_0.8_3.5.con
+DUMPAVE=KPC2_rc_0.8_3.5.tra
